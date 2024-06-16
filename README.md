@@ -1,30 +1,30 @@
-# Simulasi Manajemen Krisis Kesehatan di Bumi
+# Health Crisis Management Simulation on Earth
 
-Simulasi Manajemen Krisis Kesehatan adalah program berbasis teks yang memodelkan penyebaran virus dan upaya menjaga kesehatan pasien selama sepuluh hari. Pemain diharuskan membuat keputusan harian untuk memastikan pasien tetap hidup.
+The Health Crisis Management Simulation is a text-based program that models the spread of the virus and efforts to maintain patient health over a ten-day period. Players are required to make daily decisions to ensure patients stay alive.
 
-## Fitur
+## Feature
 
-- **Skenario Penyebaran Virus**: Memodelkan penyebaran virus dari hari kedua hingga hari kesepuluh.
-- **Manajemen Kesehatan Pasien**: Pemain harus memprioritaskan pasien untuk diberikan obat setiap harinya.
-- **Keputusan Harian**: Setiap keputusan akan mempengaruhi kelangsungan hidup pasien dan kondisi keseluruhan Bumi.
-- **Informasi Harian**: Menampilkan status virus dan jumlah pasien yang masih hidup setiap harinya.
-- **Tantangan Realistis**: Menguji kemampuan pemain dalam mengambil keputusan cepat dan tepat di bawah tekanan.
+- **Virus Spread Scenario**: Models the spread of the virus from the second day to the tenth day.
+- **Patient Health Management**: Players must prioritize patients to be given medicine every day.
+- **Daily Decisions**: Each decision will affect the patient's survival and the overall condition of the Earth.
+- **Daily Information**: Displays the status of the virus and the number of patients who are still alive every day.
+- **Realistic Challenge**: Tests the player's ability to make quick and correct decisions under pressure.
 
-## Aturan Permainan
+## Rule of the game
 
-1. **Hari Pertama**: Semua pasien memiliki health point (HP) penuh sebesar 100, tanpa ancaman virus.
-2. **Hari Kedua hingga Kesepuluh**:
-   - Virus mulai menyebar, mengurangi HP pasien sebesar 20 setiap harinya.
-   - HP pasien diacak dan dapat menurun drastis tanpa pengobatan.
-   - Pemain hanya dapat memberikan obat kepada satu pasien per hari.
-   - Jika HP pasien mencapai nol, pasien tersebut akan meninggal.
-3. **Kondisi Menang dan Kalah**:
-   - Jika semua pasien mati sebelum hari ketujuh, permainan berakhir dengan kegagalan.
-   - Jika setidaknya satu pasien tetap hidup hingga hari ketujuh, permainan berakhir dengan keberhasilan.
+1. **Day One**: All patients have full health points (HP) of 100, without the threat of viruses.
+2. **Days Two to Ten**:
+ - The virus begins to spread, reducing the patient's HP by 20 every day.
+ - HP patients are randomized and can decrease drastically without treatment.
+ - Players can only administer medicine to one patient per day.
+ - If the patient's HP reaches zero, the patient will die.
+3. **Winning and Losing Conditions**:
+ - If all patients die before the seventh day, the game ends in failure.
+ - If at least one patient remains alive until the seventh day, the game ends in success.
 
-## Cara Bermain
+## How to play
 
-1. **Setup**: Pastikan Anda telah menginstal Python di sistem Anda.
-2. **Menjalankan Simulasi**:
-   ```bash
-   python simulasi_krisis_kesehatan.py
+1. **Setup**: Make sure you have C++ installed on your system.
+2. **Running the Simulation**:
+ ```bash
+ (Project name).cpp
